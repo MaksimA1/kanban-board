@@ -1,0 +1,57 @@
+.column {
+    background-color: #EBECF0;
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+    width: 280px;
+    min-height: 200px;
+}
+.card {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.cardTitle {
+    margin: 0;
+}
+.button {
+    border: none;
+    background-color: transparent;
+    color: #5E6C84;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.addCard {
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #0079BF;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+}
+.taskLink {
+    text-decoration: none;
+    color: black;  
+}
+.taskLink:hover {
+    text-decoration: underline;
+}
+.selectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    box-sizing: border-box;
+    padding: 50px 20px;
+    align-items: flex-start;
+}
